@@ -1,21 +1,12 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
-import Name from './Components/Name/Name';
-import Price from './Components/Price/Price';
-import Description from './Components/Description/Description';
-import Image from './Components/Images/Images';
+import PlayerList from './Components/Player1/player1';
+
 
 function App() {
   return (
     <div className="App">
-    <Card>
-      <Card.Body>
-        <Name />
-        <Price />
-        <Description />
-        <Image />
-      </Card.Body>
-    </Card>
+      <h1>FIFA Player Cards</h1>
+    <PlayerList />
   </div>
   );
 }
